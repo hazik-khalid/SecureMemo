@@ -1,0 +1,28 @@
+{
+  "name": "securememo",
+  "description": "Secure note app",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "watch-tailwind": "npx tailwindcss -i ./styles/tailwind.config.css -o ./styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazik-khalid/SecureMemo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hazik-khalid/SecureMemo/issues"
+  },
+  "homepage": "https://github.com/hazik-khalid/SecureMemo#readme",
+  "dependencies": {
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "nodemon": "^3.0.3",
+    "tailwind": "^4.0.0"
+  }
+}
